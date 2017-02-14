@@ -1,0 +1,31 @@
+
+header{
+	background: black;
+	color: white;
+	text-align: center;
+	font-size: 12;
+	font-family: "Helvetia", "verdant";
+	border-style: solid;
+
+}
+
+body{
+	background: black;
+	color: white;
+	text-align: center;
+}
+h1,h2,h3
+{
+	color:white;
+	font.font-weight: normal;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.result{
+	padding:1;
+	font-family: impact,Comic Sans MS;
+	 margin-top: 0,01em;
+
+}
+p {font-size: 1.7em;}
+
+p span { color: red;}

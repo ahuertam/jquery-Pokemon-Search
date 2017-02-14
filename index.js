@@ -36,3 +36,5 @@ $("#pokeButton").on('click', function(){
   value = $("#pokemonNumber").val();
   getPokemonInfo(value);
 });
+
+
