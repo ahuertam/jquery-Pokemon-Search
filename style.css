@@ -16,15 +16,22 @@ body{
 }
 h1,h2,h3
 {
+	
 	color:white;
 	font.font-weight: normal;
 	font-family: Arial,Helvetica,sans-serif;
 }
 .result{
+	border-image: url(border.png);
 	padding:1;
+	color:white;
 	font-family: impact,Comic Sans MS;
-	 margin-top: 0,01em;
+	border:solid white 2px;
 
+}
+.result img{
+	width: 200px;
+	height: 200px;
 }
 p {font-size: 1.7em;}
 
