@@ -24,11 +24,11 @@ function getPokemonName(objeto){
 function getPokemonGeneralInfo(objeto){
   const pokemon= objeto;
   $("#pokemonImage").attr("src",pokemon.sprites.front_default);
-  $("#type1").text("Pokemon Type1 : "+pokemon.types[0].type.name);
-  $("#type2").text("Pokemon Type2 : "+pokemon.types[1].type.name);
   $("#weight").text("Pokemon Weight  "+pokemon.weight);
   $("#height").text("Pokemon Heigh "+pokemon.height);
-
+  $("#type1").text("Pokemon Type1 : "+pokemon.types[0].type.name);
+  const type2=pokemon.types[1].type.name;
+  $("#type2").text("Pokemon Type2 : "+type2);
   // $("#pokemonGeneralInfo").append(pokemon.moves[1]);
 }
 
